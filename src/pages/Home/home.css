@@ -1,0 +1,54 @@
+.container-home img
+{
+position: absolute;
+width: 100%;
+height: 100vh;
+}
+
+.texto-home
+{
+  width: 350px;
+  height: 250px;
+  margin-left: 70%;
+  margin-top: 10%;
+
+  position: relative;
+
+}
+
+.texto-home > p
+{
+  position: relative;
+  color: #F6F4F4;
+  font-size: 1.25rem;
+}
+
+.texto-home b
+{
+  position: relative;
+  color: #F6F4F4;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.texto-home button
+{
+  width: 130px;
+  height: 40px;
+  font-size: 1.5rem;
+  background: #00A2EC;
+  color: #F6F4F4;
+  border-radius: 5px;
+
+  cursor: pointer;
+  border:none!important;
+}
+.texto-home button:hover
+{
+  background: #017eb8;
+}
+
+.texto-home button:focus
+{
+  outline-style: none;
+}
