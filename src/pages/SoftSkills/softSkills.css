@@ -13,7 +13,8 @@ height: 100vh;
   height: 91.7vh;
   background: #192666;
 
-  opacity: 50%;
+  /* opacity: 50%; */
+  filter: opacity(50%);
 }
 
 .skillsContainer-opacity div
