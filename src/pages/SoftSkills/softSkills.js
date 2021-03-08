@@ -10,7 +10,7 @@ function SoftSkills() {
       <div className="skillsContainer-opacity">
       </div>
       <SkillCard />
-    </div>
+    </div >
   );
 }
 export default SoftSkills;
