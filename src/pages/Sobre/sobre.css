@@ -88,3 +88,27 @@
 
   position: absolute;
 }
+
+@media(max-width: 1000px)
+{
+  .linhaTop
+  {
+    background: 0;
+  }
+  .linhaBotton
+  {
+    background: 0;
+  }
+  .containerSobre
+  {
+    height: 120vh;
+  }
+}
+
+@media(max-width: 720px)
+{
+  .containerSobre
+  {
+    height: 150vh;
+  }
+}

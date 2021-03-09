@@ -100,7 +100,7 @@ height: 100vh;
 {
   html
   {
-    font-size: 87.5%; /* 14px */
+    font-size: 87.5%;
   }
 
   .skillsCard
@@ -109,4 +109,38 @@ height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
   }
+}
+@media (max-width: 1000px)
+{
+  .skillsCard
+{
+  width: 12.5rem;
+  height: 16rem;
+  margin-top: 3.5%;
+  margin-left: 5.5%;
+}
+.skillsCard img
+{
+  width: 3rem;
+  height: 3.5rem;
+}
+
+.skillsCard b
+{
+   width: 100px;
+  height: 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.skillsCard p
+{
+  font-size: 1rem;
+
+  max-width: 100%;
+  margin-top: 3rem;
+  line-height: 1;
+}
+
 }

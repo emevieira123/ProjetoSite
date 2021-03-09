@@ -10,8 +10,7 @@ height: 100vh;
   width: 350px;
   height: 250px;
   margin-left: 70%;
-  margin-top: 10%;
-
+  padding-top: 9%;
   position: relative;
 
 }
@@ -51,4 +50,12 @@ height: 100vh;
 .texto-home button:focus
 {
   outline-style: none;
+}
+
+@media(max-width: 720px)
+{
+  .texto-home
+  {
+    margin-left: 45%;
+  }
 }
