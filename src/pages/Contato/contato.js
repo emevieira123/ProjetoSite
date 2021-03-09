@@ -9,14 +9,23 @@ function Contato() {
       <Header />
       <div className="contatoContainer">
 
+        <h1>Formulário para Contato</h1>
+
         <div className="containerForm">
 
-          <input type="text" placeholder="Informe seu e-mail..." />
+          <input className="contato-nome" type="text" placeholder="Nome" />
+          <input className="contato-email" type="text" placeholder="E-mail" />
+          <input className="contato-telefone" type="text" placeholder="Telefone" />
 
           <textarea type="text" placeholder="Digite sua mensagem aqui..." />
 
           <button type="submit">Enviar</button>
 
+        </div>
+
+        <div className="containerLateral-direito">
+
+          <img src="https://take.net/blog/wp-content/uploads/2019/04/blip-academy.png" alt="" />
 
         </div>
 
