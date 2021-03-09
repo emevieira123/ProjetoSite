@@ -1,8 +1,22 @@
 import Header from "../Components/Header/header";
 import './contato.css';
+import emailjs from 'emailjs-com';
 
 
 function Contato() {
+
+  function enviarEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('gmailMessage', 'template_uedvzor', e.target, 'user_HLkLcMfeD8IPCtYjyIBUU')
+      .then((result) => {
+        alert('Mensagem enviada com sucesso! :)');
+      }, (error) => {
+        alert(error.message);
+      });
+    e.target.reset();
+  }
+
   return (
     <div>
       <div className="headerSemOpacity"></div>
@@ -12,14 +26,15 @@ function Contato() {
         <h1>Formulário para Contato</h1>
 
         <div className="containerForm">
+          <form onSubmit={enviarEmail}>
+            <input className="contato-nome" type="text" placeholder="Nome" name="name" />
+            <input className="contato-email" type="text" placeholder="E-mail" name="email" />
+            <input className="contato-telefone" type="text" placeholder="Telefone" name="phone" />
 
-          <input className="contato-nome" type="text" placeholder="Nome" />
-          <input className="contato-email" type="text" placeholder="E-mail" />
-          <input className="contato-telefone" type="text" placeholder="Telefone" />
+            <textarea type="text" placeholder="Digite sua mensagem aqui..." name="message" />
 
-          <textarea type="text" placeholder="Digite sua mensagem aqui..." />
-
-          <button type="submit">Enviar</button>
+            <button type="submit" >Enviar</button>
+          </form>
 
         </div>
 

@@ -43,6 +43,13 @@
   align-items: center;
   justify-content: center;
 }
+
+.containerForm form
+{
+  display: flex;
+  justify-content: center;
+}
+
 .containerForm .contato-nome
 {
   position: absolute;
