@@ -1,11 +1,7 @@
 import React from 'react'
 import Header from '../Components/Header/header';
 
-import './home.css'
-
-const GitHub = () => {
-  return window.location.href = 'https://github.com/emevieira123/';
-}
+import './home.css';
 
 function Home() {
   return (
@@ -26,7 +22,9 @@ function Home() {
           utilizando programação.
         </p>
 
-        <button onClick={GitHub}>GitHub</button>
+        <a href="https://github.com/emevieira123/" target="_blank" rel="noreferrer">
+          <button>GitHub</button>
+        </a>
       </div>
 
     </div>
