@@ -1,6 +1,6 @@
 .containerSobre
 {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 91.7vh;
   background: #F6F4F4;
@@ -10,7 +10,7 @@
 {
   position: relative;
   width: 45%;
-  height: 91vh;
+  height: 91.7vh;
   background: #F6F4F4;
   margin-left: 5%;
 
@@ -83,10 +83,10 @@
 .headerSemOpacity
 {
   width: 100%;
-  height: 65px;
+  height: 565px;
   background: #192666;
 
-  position: absolute;
+  position: relative;
 }
 
 @media(max-width: 1000px)

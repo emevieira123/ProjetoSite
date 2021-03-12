@@ -5,7 +5,6 @@ import './sobre.css';
 function Sobre() {
   return (
     <div>
-      <div className="headerSemOpacity"></div>
       <Header />
       <div className="containerSobre">
 

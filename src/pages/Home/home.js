@@ -12,13 +12,6 @@ function Home() {
     <div className="container-home">
 
       <img src="/assets/Fundo.png" alt="fundo home" />
-      {/* <div className="header-home">
-        <p>VieiraDevCode</p>
-        <button>Home</button>
-        <button onClick={Rotas} id={Sobre}>Sobre mim</button>
-        <button>Soft Skills</button>
-        <button>Contato</button>
-      </div> */}
 
       <Header />
 

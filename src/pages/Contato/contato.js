@@ -18,11 +18,9 @@ function Contato() {
   }
 
   return (
-    <div>
-      <div className="headerSemOpacity"></div>
-      <Header />
+    <>
       <div className="contatoContainer">
-
+        <Header />
         <h1>Formulário para Contato</h1>
 
         <div className="containerForm">
@@ -64,7 +62,7 @@ function Contato() {
         </div>
 
       </div>
-    </div>
+    </>
   );
 }
 export default Contato;
