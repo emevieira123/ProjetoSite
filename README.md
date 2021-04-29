@@ -3,7 +3,7 @@
 Este projeto foi realizado em ReactJS com objetivo
 de praticar meus estudos na stack.
 
-O site que ser acessado no link: http://vieiradevcode.tk
+O site pode ser acessado no link: http://vieiradevcode.tk
 
 A primeiro página é bem simples com uma imagem de fundo com menu superior com transparência e botões com efeito hover
 no corpo da página possuí um pequeno texto e um botão onde encaminha ao meu GitHub.
