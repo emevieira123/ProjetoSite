@@ -13,9 +13,10 @@ function Sobre() {
         </div>
 
         <div className="containerDireito">
-          <div className="linhaTop"></div>
-          <div className="linhaBotton"></div>
+
+
           <div className="containerTexto">
+            <div className="linhaTop"></div>
             <p className="textoSobre">
               Tenho 31 anos, sou graduando em
               Análise e Desenvolvimento de Sistemas
@@ -30,7 +31,7 @@ function Sobre() {
               ouvir podcasts sobre programação,
               passear com a família…
             </p>
-
+            <div className="linhaBotton"></div>
           </div>
         </div>
       </div>

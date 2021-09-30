@@ -39,14 +39,9 @@
   align-items: center;
   justify-content: center;
 }
-
-.containerDireito .containerTexto
+.containerTexto
 {
-  width: 70%;
-  height: 45%;
-
-  align-items: center;
-  justify-content: center;
+  width: 100%;
 }
 
 .textoSobre
@@ -58,26 +53,26 @@
 
 .linhaTop
 {
-  width: 25rem;
+  width: 80%;
   height: 6px;
   background: #197DE5;
   border-radius: 10px;
+  padding-top: 0;
+  margin-left: 10%;
 
   position: absolute;
-  display: flex;
-  margin-bottom: 50%;
 }
 
 .linhaBotton
 {
-  width: 15rem;
+  width: 25%;
   height: 6px;
   background: #197DE5;
   border-radius: 10px;
+  padding-bottom: 0;
+  margin-left: 37.5%;
 
   position: absolute;
-  display: flex;
-  margin-top: 50%;
 }
 
 .headerSemOpacity
